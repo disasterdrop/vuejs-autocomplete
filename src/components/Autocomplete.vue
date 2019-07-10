@@ -427,7 +427,7 @@
               }
               return obj[this.resultsListDisplay]
             default:
-              throw new TypeError()
+              return this.formatDisplay(obj)
           }
         },
 
